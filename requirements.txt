@@ -2,7 +2,7 @@
 streamlit==1.37.1
 python-dotenv==1.0.1
 
-# Langchain ecosystem (version-aligned)
+# Langchain ecosystem
 langchain==0.1.15
 langchain-core==0.1.47
 langchain-community==0.0.34
@@ -17,12 +17,9 @@ huggingface_hub==0.23.4
 
 # Embeddings
 sentence-transformers==2.7.0
-torch>=2.0.0
-
-# Document processing
-unstructured==0.10.14
+torch==2.1.2
 
 # Other dependencies
 tqdm
 requests
-pydantic<2.0  # Compatibility with older Langchain
+pydantic<2.0
